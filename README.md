@@ -19,3 +19,11 @@ Instead of crafting my own video looper I just used this one:
 https://learn.adafruit.com/raspberry-pi-video-looper/overview
 
 I configured the source of the videos to be read from the SD card.
+
+## Backup SD card
+
+After everything was set up I made a backup of the SD card to recreate it again in case of something gets corrupted:
+
+```
+sudo dd if=/dev/sdb bs=4M | gzip -c > raspberry-pi.img.gz
+```
