@@ -8,6 +8,12 @@ Just follow the official documenation:
 
 https://www.raspberrypi.org/learning/software-guide/quickstart/
 
+Copying the OS image to the SD card is done like this
+
+```
+dd if=2016-11-25-raspbian-jessie.img of=/dev/sdb bs=4M
+```
+
 ## Configured resolution for old monitor 1280x1024
 
 This can be done more easily in the command line config tool: raspi-config
