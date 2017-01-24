@@ -17,6 +17,7 @@ sudo dd if=2016-11-25-raspbian-jessie.img of=/dev/sdb bs=4M
 ## First steps
 
 * Changed password for user pi
+* Raised CPU clock for faster booting
 
 ## Configured resolution for old monitor 1280x1024
 
